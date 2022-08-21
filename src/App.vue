@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ChatComp />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChatComp from './components/chatComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChatComp,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+body {
+  background-color: #00a000;
+  font-family: Ubuntu;
+  color: #2c3e50;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 90vw;
+  height: 90vh;
+
 }
 </style>
