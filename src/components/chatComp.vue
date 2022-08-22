@@ -43,6 +43,8 @@ p {
   font-family: Ubuntu;
   font-weight: 300;
   /* font-size: 32px; */
+  /* font-size: 16px; */
+  font-size: 1rem;
   bottom: 0;
 }
 
@@ -65,17 +67,16 @@ div {
 
 @keyframes ease-up {
   0% {
-    margin-bottom: -8px;
-    opacity: 0;
-  }
-
-  10% {
-    margin-bottom: 2px;
+    margin-bottom: -70px;
     opacity: 1;
   }
 
+  10% {
+    margin-bottom: 0px;
+  }
+
   90% {
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     opacity: 1;
   }
 
