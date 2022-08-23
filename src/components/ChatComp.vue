@@ -30,33 +30,14 @@ const appendMessage = () => {
 </script>
 
 <style scoped>
-p {
-  display: inline-block;
-  margin: 0px 10px;
-  padding: 20px 10px;
-  background: white;
-  color: black;
-  border-radius: 12px;
-  width: fit-content;
-  max-width: 90%;
-  word-wrap: break-word;
-  font-family: Ubuntu;
-  font-weight: 300;
-  /* font-size: 32px; */
-  /* font-size: 16px; */
-  font-size: 1rem;
-  bottom: 0;
-}
-
 div {
   display: flex;
   flex-direction: column;
   margin: 2px 0px;
-
 }
 
 .newMessage {
-  height: 30px;
+  height: 1px;
 }
 
 .oldMessage {
@@ -86,17 +67,29 @@ div {
   }
 }
 
+p {
+  display: inline-block;
+  margin: 0vw 2vw;
+  padding: 1rem 0.8rem;
+  background: #F2F4FA;
+  color: black;
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 90%;
+  word-wrap: break-word;
+  font-weight: 300;
+  font-size: 2vh;
+  bottom: 0;
+}
+
 span {
   content: '';
-  /* position: fixed; */
   z-index: -10;
-  /* bottom: 0; */
   margin-top: -10px;
-  margin-left: 10px;
-  /* left: 18px; */
-  height: 18px;
-  width: 12px;
-  background: white;
+  margin-left: 2vw;
+  height: 1.125rem;
+  width: 0.875rem;
+  background: #F2F4FA;
   border-bottom-right-radius: 20px;
 }
 
